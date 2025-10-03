@@ -1,21 +1,21 @@
 package Skillbuilders;
 
-public class randomnumbers  // Class names should start with uppercase
+public class randomnumbers
 {
     public static void main(String[] args) 
     {
-        int randNum;              // Match the variable name
-        int seqLength = 0;        // Fixed spelling (was seqLenght)
+        int randNum;
+        int seqLength = 0;
 
         do
         {
-            randNum = (int)(11 * Math.random());   // randNum consistent
+            randNum = (int)(11 * Math.random());
 
-            System.out.print(randNum + " ");       // Fixed "printl" → "print"
+            System.out.print(randNum + " ");
 
-            seqLength = seqLength + 1;             // Variable spelling fixed
+            seqLength = seqLength + 1;
         }
-        while (randNum != 0);  // Fixed spacing (! = → !=)
+        while (randNum != 0);
 
         System.out.println("\nLength of sequence was " + seqLength);
     }
