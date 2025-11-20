@@ -1,3 +1,13 @@
+//HEADER
+//Program: AdderGame.java   Last Date of this Revision: November 17, 2025
+
+//Purpose: The purpose of the Adder game is to give the user addition questions and award points based on how many tries they need to get the correct answer.
+
+//Author: Emmett Stransky
+//School: CHHS
+//Course: Computer Programming 20
+
+
 package Mastery;
 
 import java.util.Random;
@@ -13,8 +23,8 @@ public class AdderGame {
         System.out.println("Welcome to Adder! Enter " + QUIT_CODE + " at any time to quit.\n");
 
         while (true) {
-            int a = rand.nextInt(21); // 0..20
-            int b = rand.nextInt(21); // 0..20
+            int a = rand.nextInt(21); 
+            int b = rand.nextInt(21); 
             int correct = a + b;
 
             System.out.print(a + " + " + b + " = ");
@@ -22,7 +32,7 @@ public class AdderGame {
             boolean answeredCorrectly = false;
 
             while (tries < 3) {
-                // Validate input is integer
+                // validate input is integer
                 if (!scanner.hasNextInt()) {
                     // consume invalid token and prompt again
                     String bad = scanner.next();
@@ -42,7 +52,7 @@ public class AdderGame {
                 tries++;
 
                 if (answer == correct) {
-                    // award points based on which try
+                    // gives points based on which try
                     if (tries == 1) {
                         score += 5;
                     } else if (tries == 2) {
@@ -70,3 +80,18 @@ public class AdderGame {
         }
     }
 }
+
+//SCREEN DUMP
+//Welcome to Adder! Enter 999 at any time to quit.
+
+//10 + 14 = 24
+//9 + 12 = 21
+//15 + 1 = 17
+//Wrong answer. Enter another answer: 18
+//Wrong answer. Enter another answer: 14
+//Wrong answer.
+//The correct answer is: 16
+//17 + 10 = 27
+//7 + 11 = 999
+
+//Your score is: 15
