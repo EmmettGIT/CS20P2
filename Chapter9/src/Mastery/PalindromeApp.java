@@ -42,4 +42,8 @@ Enter a word or phrase: Taco Cat
 "Taco Cat" IS a palindrome.
 Enter a word or phrase: Rotors
 "Rotors" is NOT a palindrome.
+Enter a word or phrase: candy
+"candy" is NOT a palindrome.
+Enter a word or phrase: Noel sees Leon
+"Noel sees Leon" IS a palindrome.
 */
