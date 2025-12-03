@@ -33,6 +33,8 @@ public class PalindromeApp {
             System.out.println("\"" + original + "\" IS a palindrome.");
         } else {
             System.out.println("\"" + original + "\" is NOT a palindrome.");
+        
+        input.close();
         }
     }
 }
