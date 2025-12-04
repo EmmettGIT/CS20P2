@@ -74,6 +74,7 @@ public class AdderGame {
 
             if (!answeredCorrectly) {
                 System.out.println("The correct answer is: " + correct);
+           
             }
 
             // loop continues to next problem automatically
