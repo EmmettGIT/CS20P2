@@ -1,4 +1,6 @@
-//HEADER
+/*
+ * HEADER
+ */
 //Program: AdderGame.java   Last Date of this Revision: November 17, 2025
 
 //Purpose: The purpose of the Adder game is to give the user addition questions and award points based on how many tries they need to get the correct answer.
