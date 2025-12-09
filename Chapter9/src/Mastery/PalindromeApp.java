@@ -1,12 +1,13 @@
-//HEADER
-//Program: PalindromeApp.java   Last Date of this Revision: November 27, 2025
+/*
+HEADER
+Program: PalindromeApp.java   Last Date of this Revision: November 27, 2025
 
-//Purpose: To allow the user to enter a word or phrase and determine whether it reads the same forwards and backwards, identifying it as a palindrome.
+Purpose: To allow the user to enter a word or phrase and determine whether it reads the same forwards and backwards, identifying it as a palindrome.
 
-//Author: Emmett Stransky
-//School: CHHS
-//Course: Computer Programming 20
-
+Author: Emmett Stransky
+School: CHHS
+Course: Computer Programming 20
+*/
 package Mastery;
 
 import java.util.Scanner;

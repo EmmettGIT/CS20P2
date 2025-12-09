@@ -1,12 +1,13 @@
-//HEADER
-//Program: SelectionSort.java   Last Date of this Revision: December 3, 2025
+/*
+HEADER
+Program: SelectionSort.java   Last Date of this Revision: December 3, 2025
 
-//Purpose: To generate a list of random numbers, sort them from lowest to highest using selection sort, and display the sorted results.
+Purpose: To generate a list of random numbers, sort them from lowest to highest using selection sort, and display the sorted results.
 
-//Author: Emmett Stransky
-//School: CHHS
-//Course: Computer Programming 20
-
+Author: Emmett Stransky
+School: CHHS
+Course: Computer Programming 20
+*/
 package Mastery;
 
 import java.util.Scanner;
