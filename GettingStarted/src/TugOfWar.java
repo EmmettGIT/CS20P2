@@ -1,14 +1,4 @@
-/*
-HEADER
-Program: TugOfWar.java   Last Date of this Revision: December 9, 2025
 
-Purpose: To create a two-player tug-of-war game where each player races
-		 to press their button 10 times, and the winner is shown by flashing both LEDs once and then the winner’s LED five times.
-
-Author: Emmett Stransky
-School: CHHS
-Course: Computer Programming 20
-*/
 
 // add phidgets library
 import com.phidget22.*;
@@ -107,24 +97,3 @@ public class TugOfWar {
     }
 }
 
-/*
-SCREEN DUMP
-Game Start! First to 10 presses wins!
-Red pressed: 1
-Green pressed: 1
-Red pressed: 2
-Green pressed: 2
-Green pressed: 3
-Red pressed: 3
-Green pressed: 4
-Red pressed: 4
-Green pressed: 5
-Red pressed: 5
-Green pressed: 6
-Green pressed: 7
-Green pressed: 8
-Green pressed: 9
-Red pressed: 6
-Green pressed: 10
-GREEN WINS!
-*/

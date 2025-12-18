@@ -15,17 +15,15 @@ public class ButtonsAndLEDs {
         //Address | Address your four objects which lets your program know where to find them.
         redButton.setHubPort(0);
         redButton.setIsHubPortDevice(true);
+        redButton.open(1000);
         redLED.setHubPort(1);
         redLED.setIsHubPortDevice(true);
+        redLED.open(1000);
         greenButton.setHubPort(5);
         greenButton.setIsHubPortDevice(true);
+        greenButton.open(1000);
         greenLED.setHubPort(4);
         greenLED.setIsHubPortDevice(true);
-
-        //Open | Connect your program to your physical devices.
-        redButton.open(1000);
-        redLED.open(1000);
-        greenButton.open(1000);
         greenLED.open(1000);
 
         //Use your Phidgets | This code will turn on the LED when the matching button is pressed and turns off the LED when the matching button is released. The sleep function slows down the loop so the button state is only checked every 150ms.
