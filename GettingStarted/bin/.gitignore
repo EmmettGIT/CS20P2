@@ -1,10 +1,5 @@
-/GettingStarted.class
-/GettingStarted/
-/BlinkLED.class
-/ReadButton.class
-/ButtonsAndLEDs.class
-/TugOfWar.class
-/ReadTemperature.class
-/ThumbStick.class
-/Thumbstick.class
-/ThumbstickMouseControl.class
+/PhidgetController.class
+/GameController.class
+/ReadTemperatureHumidity.class
+/HotOrCold.class
+/Thermostat.class
